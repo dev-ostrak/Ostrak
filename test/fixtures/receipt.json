@@ -1,0 +1,34 @@
+{
+  "object": "receipt",
+  "receipt": {
+    "type": "ostrak.receipt.v1",
+    "receipt_id": "1965ae58-d5cc-4e74-8017-cfc35617094c",
+    "agent_id": "c8615a77-b4ca-4e3b-aaaa-dafca94a80a8",
+    "timestamp": 1794932968781,
+    "model": "openai/gpt-6-luna",
+    "input_tokens": 16,
+    "output_tokens": 45,
+    "cost_micro": 25,
+    "fee_micro": 139,
+    "status": "ok"
+  },
+  "receipt_hash": "0x957cabde5f2d8112c2d5ddd9286797dfea358a596ac497a69032e279b1914acf",
+  "signature": "0x9e8e0bbef2729e88a57f6704e50d0e46ba9bf0ada9cf43431a48a4f514bf8373061af725b6547515afd972906e99f1256bd01704f9b089e25f0ccdce86a858ca1b",
+  "signer": "0x6fFAFDa12da2832C29Db551170B046D39927e7bd",
+  "seal": {
+    "status": "sealed",
+    "root": "0xb4c6c291d043c8e04bb8b5a9b865ef81d34fe62addf294eddba3a66ea1ebd360",
+    "window": {
+      "from": 1794873600000,
+      "to": 1794960000000
+    },
+    "leaf_index": 0,
+    "proof": [
+      "0xbcb489edf3776af694e58c303b00a17bea8d4b021a9d44328d6f7fed8a183079"
+    ],
+    "chain_id": 4663,
+    "contract": "0x54A4904f45E7665FB53BD062d0479C773Afc0C1A",
+    "tx_hash": "0xe97a59b2dc200f3610e54415784bb496bc9cda82cf76fd062d6d2818f3f2bd1d",
+    "tx_url": "https://robinhoodchain.blockscout.com/tx/0xe97a59b2dc200f3610e54415784bb496bc9cda82cf76fd062d6d2818f3f2bd1d"
+  }
+}

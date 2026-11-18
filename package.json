@@ -1,0 +1,25 @@
+{
+  "name": "ostrak-proofs",
+  "version": "0.1.0",
+  "description": "Verify Ostrak spending receipts yourself: hash, signature, Merkle proof and the on-chain seal on Robinhood Chain.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=23.6"
+  },
+  "exports": "./src/index.ts",
+  "scripts": {
+    "verify": "node bin/verify.ts",
+    "test": "node --test test/",
+    "typecheck": "tsc --noEmit",
+    "test:contracts": "cd contracts && forge test"
+  },
+  "dependencies": {
+    "viem": "2.57.20"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "5.9.3"
+  }
+}
